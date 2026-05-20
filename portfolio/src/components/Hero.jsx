@@ -7,7 +7,7 @@
  */
 const Hero = ({name, job}) => {
     return (
-        <section className="flex items-center justify-between px-12 py-16 min-h-screen">
+        <section className="flex justify-between px-12 py-16 min-h-screen">
             <div className="flex flex-col max-w-md">
                 <span className="font-poppins text-sm font-semibold text-brand-yellow uppercase tracking-widest">
                     {job}
