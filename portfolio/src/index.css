@@ -3,6 +3,7 @@
 @import "@fontsource/roboto";
 @import "@fontsource/poppins";
 @import "@fontsource/poppins/700.css";
+@import "@fontsource/poppins/900.css";
 @import "@fontsource/nunito";
 @import "@fontsource/comfortaa";
 @import "@fontsource/raleway";
@@ -19,5 +20,6 @@
     --color-brand-black: #000000;
     --color-brand-gray-black: #25282B;
     --color-brand-gray: #828282;
+    --color-background: #f9faff;
 
 }

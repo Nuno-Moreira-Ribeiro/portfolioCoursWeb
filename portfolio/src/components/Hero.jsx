@@ -9,10 +9,10 @@ const Hero = ({name, job}) => {
     return (
         <section className="flex justify-between px-12 py-16 min-h-screen">
             <div className="flex flex-col max-w-md">
-                <span className="font-poppins text-sm font-semibold text-brand-yellow uppercase tracking-widest">
+                <span className="font-nunito text-[20px] font-bold leading-[100%] tracking-normal uppercase text-brand-yellow">
                     {job}
                 </span>
-                <h1 className="font-poppins text-6xl leading-[120%] font-bold text-brand-gray-black">
+                <h1 className="font-poppins text-[60px] leading-[120%] font-black tracking-normal text-brand-gray-black">
                     Hello, my <br /> name is <br />
                     <span className="text-brand-gray-black">{name}</span>
                 </h1>
