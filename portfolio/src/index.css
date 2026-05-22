@@ -5,8 +5,11 @@
 @import "@fontsource/poppins/700.css";
 @import "@fontsource/poppins/900.css";
 @import "@fontsource/nunito";
+@import "@fontsource/nunito/400.css";
 @import "@fontsource/comfortaa";
+@import "@fontsource/comfortaa/700.css";
 @import "@fontsource/raleway";
+@import "@fontsource/raleway/500.css";
 @import "@fontsource/playfair-display";
 
 @theme {

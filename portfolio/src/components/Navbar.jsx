@@ -4,16 +4,16 @@
  * @returns {React.JSX.Element}
  * @constructor
  */
- const Navbar = () => {
+ const Navbar = ({name}) => {
     return (
-        <nav className="flex justify-between items-center px-12 py-4">
-            <div className="text-base font-comfortaa font-semibold text-brand-gray-black">
-                Moreira Ribeiro Nuno
+        <nav className="flex justify-between items-center px-12 py-3">
+            <div className="font-comfortaa text-[18px] font-bold leading-[180%] tracking-normal text-brand-gray-black">
+                {name}
             </div>
-            <ul className="flex gap-8 list-none m-0 p-0">
-                <li><a href="#about"    className="text-brand-gray-black transition-colors no-underline font-raleway font-semibold">About</a></li>
-                <li><a href="#projects" className="text-brand-gray-black transition-colors no-underline font-raleway font-semibold">Projects</a></li>
-                <li><a href="#contacts" className="text-brand-gray-black transition-colors no-underline font-raleway font-semibold">Contacts</a></li>
+            <ul className="flex gap-12 list-none m-0 p-0">
+                <li><a href="#about" className="text-brand-gray-black transition-colors no-underline font-medium text-[18px] font-raleway">About</a></li>
+                <li><a href="#projects" className="text-brand-gray-black transition-colors no-underline font-medium text-[18px] font-raleway">Projects</a></li>
+                <li><a href="#contacts" className="text-brand-gray-black transition-colors no-underline font-medium text-[18px] font-raleway">Contacts</a></li>
             </ul>
         </nav>
     );
