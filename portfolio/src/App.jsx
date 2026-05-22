@@ -7,7 +7,7 @@ function App() {
         <div className="bg-[url(assets/yellow-bg.png)] bg-no-repeat bg-top-right bg-size-[auto_620px]"  >
             <div className="mx-18">
                 <Navbar name="Madelyn Torff" />
-                <Hero name={"Moreira Nuno"} job={"Java Developer"} />
+                <Hero name={"Madelyn Torff"} job={"UI/UX Designer"} />
             </div>
         </div>
     )
